@@ -1,0 +1,6 @@
+import statistics as statistics
+import numpy as np
+from uncertainties import unumpy
+
+x = unumpy.uarray([1.61, 1.98], [0.40, 0.16])
+print(x)

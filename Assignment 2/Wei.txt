@@ -1,0 +1,14 @@
+
+# importing libraries
+import seaborn as sns
+import matplotlib.pyplot as plt
+ 
+# importing diamond dataset from the library
+df = sns.load_dataset('diamonds')
+ 
+# plotting histogram and density
+# plot for carat using distplot()
+sns.distplot(a=df.carat)
+ 
+# visualizing plot using matplotlib.pyplot library
+plt.show()
